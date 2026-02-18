@@ -1,0 +1,37 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Python cache/temp
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+pip-wheel-metadata/
+
+# IDE/editor temp files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local logs
+*.log

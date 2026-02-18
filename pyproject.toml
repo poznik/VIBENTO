@@ -1,0 +1,17 @@
+[project]
+name = "layout-autofix"
+version = "0.1.0"
+description = "Global EN/RUS selected-text layout converter on input-source change"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pynput>=1.7.7",
+  "pyobjc-framework-Cocoa>=10.2; sys_platform == 'darwin'",
+]
+
+[project.scripts]
+layout-autofix = "layout_autofix.__main__:main"
+layout-autofix-macos = "layout_autofix.macos_app:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
